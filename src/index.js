@@ -16,7 +16,7 @@ var firebaseConfig = {
     measurementId: "G-14VSFT2TXY"
   };
 
-  firebase.initalizeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
